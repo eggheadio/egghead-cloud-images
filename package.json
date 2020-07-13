@@ -1,0 +1,11 @@
+{
+  "name": "egghead-cloud-images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "license": "MIT",
+  "repository": "https://github.com/eggheadio/egghead-cloud-images/",
+  "scripts": {
+    "start": "cd functions/gen-opengraph-image && npm start"
+  }
+}
