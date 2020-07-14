@@ -11,7 +11,7 @@ exports.handler = async function (event, ctx) {
   const {queryStringParameters} = event
 
   if (queryStringParameters.type === "course") {
-    await generateCourseImage({browser, page, queryStringParameters})
+    await generateCourseImage(browser, page, queryStringParameters)
   } else {
     page.setViewportSize({
       // video poster
