@@ -1,5 +1,5 @@
 {
-  "name": "gen-opengraph-image",
+  "name": "gen-image",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",

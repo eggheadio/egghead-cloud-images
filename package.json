@@ -6,6 +6,6 @@
   "license": "MIT",
   "repository": "https://github.com/eggheadio/egghead-cloud-images/",
   "scripts": {
-    "start": "cd functions/gen-opengraph-image && npm start"
+    "start": "cd functions/gen-image && npm start"
   }
 }
