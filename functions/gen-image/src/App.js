@@ -3,7 +3,7 @@ import Talk from "./templates/talk-template"
 
 export default function App() {
   return (
-    <div className="App" style={{}}>
+    <div className="App">
       <div
         style={{
           position: "relative",
