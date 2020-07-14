@@ -1,7 +1,7 @@
 const playwright = require("playwright-aws-lambda")
 const fs = require("fs")
 const script = fs.readFileSync("./src/talk.js", "utf-8")
-const GenerateCourseImage = require("./gen-course")
+const generateCourseImage = require("./gen-course")
 
 exports.handler = async function (event, ctx) {
   const browser = await playwright.launchChromium()
@@ -11,7 +11,7 @@ exports.handler = async function (event, ctx) {
   const {queryStringParameters} = event
 
   if (queryStringParameters.type === "course") {
-    GenerateCourseImage(browser, page)
+    generateCourseImage(browser, page, queryStringParameters)
   } else {
     page.setViewportSize({
       // video poster
