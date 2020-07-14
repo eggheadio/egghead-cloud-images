@@ -1,7 +1,7 @@
 const fs = require("fs")
 const script = fs.readFileSync("./src/talk.js", "utf-8")
 
-export default async function GenerateCourseImage(browser, page) {
+exports.handler = async function GenerateCourseImage(browser, page) {
   page.setViewportSize({
     // video poster
     // width: 1280,
