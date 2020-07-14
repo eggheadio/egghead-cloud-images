@@ -7,7 +7,7 @@ import Twemoji from "react-twemoji"
 import queryString from "querystring"
 import get from "lodash/get"
 
-const Design = ({props}) => {
+const TalkTemplate = ({props}) => {
   // url params to develop & test locally
   const urlParams = new URLSearchParams(window.location.search)
   const slug = urlParams.get("slug")
@@ -100,4 +100,4 @@ const Design = ({props}) => {
   )
 }
 
-export default Design
+export default TalkTemplate
