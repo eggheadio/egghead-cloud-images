@@ -11,7 +11,7 @@ const config = {
   input: "src/talk.js",
   output: [
     {
-      file: `image.js`,
+      file: `talk.js`,
       format: "iife",
     },
   ],
