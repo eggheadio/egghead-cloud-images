@@ -1,7 +1,7 @@
 const fs = require("fs")
 const script = fs.readFileSync("./src/talk.js", "utf-8")
 
-exports.default = async function (browser, page) {
+module.exports = async function (browser, page) {
   page.setViewportSize({
     // video poster
     // width: 1280,

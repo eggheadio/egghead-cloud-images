@@ -1,7 +1,7 @@
 const playwright = require("playwright-aws-lambda")
 const fs = require("fs")
 const script = fs.readFileSync("./src/talk.js", "utf-8")
-const GenerateCourseImage = require("./gen-course.js")
+const GenerateCourseImage = require("./gen-course")
 
 exports.handler = async function (event, ctx) {
   const browser = await playwright.launchChromium()
